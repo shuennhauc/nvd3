@@ -1,5 +1,5 @@
 // sidebar dropdown
-var dropdown = d3.select("body")
+var dropdown = d3.select("#sidebar")
 dropdown
   .append("select")
   .selectAll("options")
