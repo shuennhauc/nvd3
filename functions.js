@@ -27,8 +27,8 @@
  });
 
  //PIE 1
- var height = 400;
- var width = 400;
+ var height = 200;
+ var width = 200;
 
  nv.addGraph(function() {
      var chart = nv.models.pieChart()

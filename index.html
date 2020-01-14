@@ -33,7 +33,15 @@
     <h5>Subtitle</h5>
   </header>
 
-  <div class="dashboard-flex-container">
+  <div class="col-sm-2 sidenav">
+    <div id="sidebar">
+      <h2>SideBar</h2>
+      <script src="sidebar.js" type="text/javascript"></script>
+    </div>
+
+
+  </div>
+  <div class="col-sm-9 dashboard-flex-container">
 
       <!-- <div
           id="worldPopulationMultiStackedBar"
@@ -42,17 +50,8 @@
           <svg></svg>
       </div> -->
 
-        <div class="col-sm-2 sidenav">
-          <div id="sidebar">
-            <h2>SideBar</h2>
-            <script src="sidebar.js" type="text/javascript"></script>
-          </div>
-
-
-        </div>
-
-        <div class="col-sm-9 main-container">
-          <div id="worldpop_pie">
+          <div id="worldpop_pie"
+               class="with-3d-shadow with-transitions worldpop_pie">
             <h4>Brazil</h4>
                   <svg>
                   </svg>
@@ -70,7 +69,6 @@
 
       </div>
 
-    </div>
 </body>
 
 </html>
